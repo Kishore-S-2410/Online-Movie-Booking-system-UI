@@ -1,0 +1,86 @@
+
+ 
+<html>
+    <head>
+        <title> SIGN UP  </title>
+        <style>
+            legend {
+                display: block;
+                padding-left: 2px;
+                padding-right: 2px;
+                border: none;
+            }
+            body{
+                background-color:rgb(255, 115, 0);
+                text-align: center;
+            }
+            form{
+                text-align: center;
+                margin-left: 38%;
+                margin-right: 50%;
+            }
+        </style>
+        <div >
+            <img src="https://seeklogo.com/images/M/movie-time-cinema-logo-8B5BE91828-seeklogo.com.png">
+        </div>
+        <script type="text/javascript">
+            function validate() {
+                var user = document.getElementById("e").value;
+                var user2 = document.getElementById("e");
+                var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                if (re.test(user)) {
+                    alert("Done !!");
+                    return true;
+                }
+                else {
+                    alert("Invalid E-mail ID ");
+                    user2.style.border = "red solid 3px";
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body >
+
+		<h1> USER REGISTRATION </h1>
+        <form>
+           <fieldset style="width:300px">
+			  <legend>USER REGISTRATION </legend>
+                <table>
+                    <tr>
+                    <input type="text"
+                    placeholder="firstname"
+                    maxlength="10">
+                    </tr>
+                    <br><br>
+                    <tr>
+                    <input type="text"
+                    placeholder="lastname"
+                    maxlength="10">
+                    </tr>
+                    <br><br>
+                    <tr>
+                    <input type="email"
+                    placeholder="username@gmail.com" id="e">
+                    </tr>
+                    <br><br>
+                    <tr>
+                    <input type="password" placeholder="password">
+                    </tr>
+                    <br><br>
+                    <tr>
+                    <input type="password" placeholder="confirm">
+                    </tr>
+                    <br><br>
+                    <tr>
+                    <input type="text" placeholder="contact">
+                    </tr>
+                    <br><br>
+                    <tr><input type="submit"
+                    onclick="validate()" value="create">
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>

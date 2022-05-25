@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <!--Icon at the tab-->
+        <link rel="icon" href="https://moddroid.co/wp-content/uploads/2021/02/kissclipart-movies-popcorn-icon-clipart-film-cinema-computer-i-e98992dd7af71ab2.png" type="image/x-icon">
+        <!--css reference-->
+        <link rel="stylesheet" href="main.css">
+        <!--home icon and dropdown down icons style sheet-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <!--Java script reference-->
+        <script src="main.js"></script>
+        <!--Bootstrap links for carousel effect--->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">   
+        <title>MOVIE TIME</title>
+    </head>
+
+    <body>
+            <div class="top_section">
+                <div>
+                    <img src="https://seeklogo.com/images/M/movie-time-cinema-logo-8B5BE91828-seeklogo.com.png">        
+                </div>
+                <div>
+                    <input type="text" placeholder="Search for movies, plays, interviews and more">
+                </div>  
+                <div>
+                    <a href="#" >Coimbatore<i class="fa fa-caret-down"></i></a>
+                </div>         
+                <div>
+                    <button onclick = "window.location.href='index.html';">Sign In</button>
+                </div> 
+
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="feedback/index.html">Feedback</a>
+                  </div>
+                  
+                <div id="sidebar_button">
+                    <button class="openbutton" onclick="openNav()">&#9776;</button>
+                </div>
+            </div>
+
+            <div class="Nav_Bar">
+                <div class="Nav_Bar_1">
+                    <button><i class="fa fa-home"></i></button>
+                    <a href="#">Movies</a>
+                    <a href="#">Streams</a>
+                    <a href="#">Events</a>
+                    <a href="#">Plays</a>
+                    <a href="#">Sports</a>
+                    <a href="#">Activities</a>
+                    <a href="#">Buzz</a>
+                </div>
+                <div class="Nav_Bar_2">
+                    <a href="#">ListYourShows</a>
+                    <a href="#">Corporates</a>
+                    <a href="#">Offers</a>
+                    <a href="#">GiftCards</a>    
+                </div>        
+        </div>
+
+        <div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+            
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="main_carousel_images/1.jpg" alt="Image1" style="width:100%; height:250px">
+                  </div>
+            
+                  <div class="item">
+                    <img src="main_carousel_images/2.jpg" alt="Image2" style="width:100%; height: 250px;">
+                  </div>
+                
+                  <div class="item">
+                    <img src="main_carousel_images/3.jpg" alt="Image3" style="width:100%; height: 250px;">
+                  </div>
+                </div>
+            
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+        </div>
+
+        <div class="image_gallery">
+          <h1 style="text-decoration-line: overline;"><b>WHAT'S ON</b></h1>
+        </div>
+
+        <div class="btn-collection">
+          <a href="booking.html">
+    
+            <button class="btn btn-custom">
+                 
+                    Buy Ticket
+                 
+            </button>
+        </a>
+    
+        <a href="./playing.html">
+            <button class="btn btn-custom">
+                 
+                Now Playing
+             
+            </button>
+        </a>
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    </body>
+</html>

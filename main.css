@@ -1,0 +1,207 @@
+.top_section{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.top_section img{
+    height: 70px;
+}
+
+.top_section input[type = text]{
+    height : 30px;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 250px;
+    font-size: 17px;
+    width : 400px;
+    border: none;  
+}
+
+
+@media screen and (max-width: 600px){
+    .top_section input[type = text]{
+        width: 70% ;
+    }
+    .top_section {
+        float: inline-end;
+    }
+
+}
+
+.top_section > div a {
+    color: white;
+    display: block;
+    text-align: center;
+    margin-left: 100px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+
+.top_section a:hover {
+    color: orange;
+}
+  
+.top_section > div button{
+    color: black;
+    display: block;
+    margin: 20px;
+    padding: 8px;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+}
+
+.top_section > div button{
+    cursor: pointer;;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    right: 0;
+    background-color: #111; 
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s; 
+}
+  
+.sidebar a {
+    margin-right: 40px;
+    padding: 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color:orange;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    border: none;
+}
+    
+#sidebar_button {
+    transition: margin-right .5s; 
+}
+
+.Nav_Bar{
+    background-color :  #100c08;
+    overflow : hidden;
+    position : -webkit-sticky;
+    position : sticky;
+    top : 0;
+}
+
+.Nav_Bar button{
+    float : left;
+    background-color :  #100c08;
+    border: none;
+    color: white;
+
+    margin: 5px;
+    font-size : 18px;
+    cursor: pointer;
+}
+  
+.Nav_Bar button:hover {
+    color : orange;
+}
+  
+.Nav_Bar a {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+.Nav_Bar a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.Nav_Bar .Nav_Bar_1 {
+    margin: 5px;
+    float: left;
+}
+
+.Nav_Bar .Nav_Bar_2 {
+    margin: 5px;
+    float: right;
+  }
+  
+.image_gallery {
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+
+.bg-custom{
+    background-color: black;
+     
+}
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.nav-link{
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+
+.btn-custom{
+    background-color: orange !important;
+    font-weight: 800 !important;
+    color:black !important;
+     
+}
+
+.btn-collection{
+     
+    max-width: 241px;
+    margin:  2em auto;
+}
+
+.img-card{
+    margin: 5px 0px;
+    transition: .1s;
+}
+.img-card:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+
+.btn-collection-playing{
+     
+    max-width: 110px;
+    margin:  2em auto;
+}
